@@ -147,12 +147,12 @@ body {
 }
 
 ::selection {
-  background: #4b8ef1;
+  background: #5fcf80;
   color: #fff !important;
 }
 
 ::-moz-selection {
-  background: #4b8ef1;
+  background: #5fcf80;
   color: #fff !important;
 }
 
@@ -187,7 +187,7 @@ body {
 
 .section-heading h4 em {
   font-style: normal;
-  color: #4b8ef1;
+  color: #5fcf80;
 }
 
 .section-heading img {
@@ -207,7 +207,7 @@ body {
 .white-button a {
   display: inline-block !important;
   padding: 10px 20px !important;
-  color: #4b8ef1 !important;
+  color: #5fcf80 !important;
   text-transform: capitalize;
   font-size: 15px;
   background-color: #fff;
@@ -223,7 +223,7 @@ body {
 }
 
 .white-button a:hover {
-  background-color: #4b8ef1;
+  background-color: #5fcf80;
   color: #fff !important;
 }
 
@@ -247,7 +247,7 @@ body {
   color: #fff !important;
   text-transform: capitalize;
   font-size: 15px;
-  background: rgb(19,175,240);
+  background: #5fcf80;
   background: linear-gradient(105deg, rgba(91,104,235,1) 0%, rgba(40,225,253,1) 100%);
   border-radius: 23px;
   font-weight: 500 !important;
@@ -264,8 +264,8 @@ body {
 .border-button a {
   display: inline-block !important;
   padding: 10px 20px !important;
-  color: #4b8ef1 !important;
-  border: 1px solid #4b8ef1;
+  color: #5fcf80 !important;
+  border: 1px solid #5fcf80;
   text-transform: capitalize;
   font-size: 15px;
   display: inline-block;
@@ -277,7 +277,7 @@ body {
 }
 
 .border-button a:hover {
-  background-color: #4b8ef1;
+  background-color: #5fcf80
   color: #fff !important;
 }
 
@@ -428,7 +428,7 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #4b8ef1!important;
+  color: #5fcf80!important;
 }
 
 .header-area .main-nav .nav li:last-child a.active {
@@ -437,7 +437,7 @@ header
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #4b8ef1!important;
+  color: #5fcf80!important;
   opacity: 1;
 }
 
@@ -499,7 +499,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #4b8ef1!important;
+  color: #5fcf80!important;
   padding-left: 25px;
 }
 
@@ -639,7 +639,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #4b8ef1;
+  color: #5fcf80;
 }
 
 @media (max-width: 1200px) {
@@ -655,7 +655,7 @@ header
 @media (max-width: 992px) {
   .header-area .main-nav .nav li:last-child  ,
   .background-header .main-nav .nav li:last-child {
-    color: #069;
+    color: #5fcf80;
   }
   .header-area .main-nav .nav li:nth-child(6),
   .background-header .main-nav .nav li:nth-child(6) {
@@ -679,7 +679,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #4b8ef1!important;
+    color: #5fcf80!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -741,7 +741,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #4b8ef1!important;
+    color: #5fcf80!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -1390,7 +1390,7 @@ The Clients
 }
 
 .pricing-item-regular ul li {
-  color: #4b8ef1;
+  color: #5fcf80;
   font-size: 15px;
   margin-bottom: 15px;
 }
@@ -1467,7 +1467,7 @@ The Clients
 }
 
 .pricing-item-pro ul li {
-  color: #4b8ef1;
+  color: #5fcf80;
   font-size: 15px;
   margin-bottom: 15px;
 }
