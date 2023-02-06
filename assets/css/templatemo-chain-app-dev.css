@@ -260,6 +260,15 @@ body {
   background: rgb(19,175,240);
   background: linear-gradient(105deg, #caeb5b 0%, rgba(40,225,253,1) 100%);
 }
+.consalts {
+  border-radius: 12px;
+  width: 120px;
+  height: 120px;
+  max-width: 120px;
+  max-height: 120px
+px
+;
+}
 
 .border-button a {
   display: inline-block !important;
