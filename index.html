@@ -36,6 +36,8 @@ https://templatemo.com/tm-570-chain-app-dev
 
 <body>
 
+  
+  
   <!-- ***** Preloader Start ***** -->
   <div id="js-preloader" class="js-preloader">
     <div class="preloader-inner">
@@ -736,6 +738,24 @@ https://templatemo.com/tm-570-chain-app-dev
   </div>
 </div>
 
+  <button>UP</button>
+  <script> let btn = document.querySelector("button");
+  
+  window.onscroll = function () {
+      if (window.scrollY >= 600){
+          btn.style.display = "block";
+      } else {
+          btn.style.display = "none";
+      }
+  };
+  
+  btn.onclick = function () {
+      window.scrollTo({
+          left: 0,
+          top: 0,
+          behavior: "smooth"
+      });
+  };</script>
   <footer id="newsletter">
     <div class="container">
       <div class="row">
@@ -826,7 +846,7 @@ https://templatemo.com/tm-570-chain-app-dev
 
 
   <!-- Scripts -->
-  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/jquery/jquery.min.js"></scrip>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/owl-carousel.js"></script>
   <script src="assets/js/animation.js"></script>
