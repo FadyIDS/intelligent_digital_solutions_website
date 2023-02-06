@@ -265,9 +265,8 @@ body {
   width: 120px;
   height: 120px;
   max-width: 120px;
-  max-height: 120px
-px
-;
+  max-height: 120px;
+  margin: 30px;
 }
 
 .border-button a {
@@ -1727,7 +1726,7 @@ PopUp
 
 .btn {
   padding: 10px 20px;
-  background: #4b8ef1;
+  background: #5fcf80;
   color: #fff;
   transition: all .3s;
 }
@@ -1786,7 +1785,7 @@ a.btn_red {
   right: 0;
   top: 0;
   padding: 10px 15px;
-  background: #4b8ef1;
+  background: #5fcf80;
   cursor: pointer;
   color: #fff;
   font-size: 16px;
@@ -1997,7 +1996,7 @@ responsive
     margin-right: 0;
   }
   .main-banner .left-content .white-button a {
-    background-color: #4b8ef1;
+    background-color: #5fcf80;
     color: #fff !important;
   }
   form#contact {
