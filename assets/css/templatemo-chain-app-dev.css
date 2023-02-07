@@ -1049,7 +1049,10 @@ Services Style
   width: 139px;
     height: 96px;
   transition: all .3s;
-  margin-left: 28px;
+  margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
 }
 
 .service-item h4 {
@@ -1057,9 +1060,8 @@ Services Style
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 15px;
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
+  justify-content: center;
 }
 
 .service-item p {
