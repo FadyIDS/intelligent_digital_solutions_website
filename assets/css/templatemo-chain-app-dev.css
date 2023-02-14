@@ -286,7 +286,7 @@ body {
 .border-button a {
   display: inline-block !important;
   padding: 10px 20px !important;
-  color: #5fcf80 !important;
+  color: #5fcf80;
   border: 1px solid #5fcf80;
   text-transform: capitalize;
   font-size: 15px;
@@ -297,11 +297,18 @@ body {
   letter-spacing: 0.3px !important;
   transition: all .5s;
 }
+.border-button a:hover { 
+  font-size: 20px ;
+  color: white;
+}
+.border-button :hover {
+  background-color: #5fcf80
+}
 
-.border-button a:hover {
+/* .border-button a:hover {
   background-color: #5fcf80
   color: #fff !important;
-}
+} */
 
 
 /* 
@@ -1117,7 +1124,7 @@ Services Style
 }
 
 .service-item:hover {
-  background-image: url(../images/service-bg.jpg);
+  background-image: url(../images/service-bg.png);
   background-position: right top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1395,7 +1402,7 @@ The Clients
   position: absolute;
   bottom: 0;
   right: 0;
-  background-image: url(../images/regular-table-bottom.png);
+  background-image: url(../images/regular-table-bottom2.png);
   z-index: 0;
   content: '';
   width: 370px;
@@ -1472,7 +1479,7 @@ The Clients
   right: 0;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/pro-table-bottom.png);
+  background-image: url(../images/pro-table-bottom2.png);
   z-index: 0;
   content: '';
   width: 100%;
