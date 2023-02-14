@@ -1084,13 +1084,13 @@ Services Style
 }
 
 .first-service .icon {
-  background-image: url(../images/webdevelopment.jpg);
+  background-image: url(../images/webdevelopment2.jpg);
   background-size: cover;
 }
 
 
 .first-service:hover .icon {
-  background-image: url(../images/webdevelopment.jpg);
+  background-image: url(../images/webdevelopment2.jpg);
 }
 
 .second-service .icon {
