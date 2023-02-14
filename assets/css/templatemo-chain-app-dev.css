@@ -1094,12 +1094,12 @@ Services Style
 }
 
 .second-service .icon {
-  background-image: url(../images/webdesign3.jpg);
+  background-image: url(../images/webdesign4.jpg);
   background-size: cover;
 }
 
 .second-service:hover .icon {
-  background-image: url(../images/webdesign3.jpg);
+  background-image: url(../images/webdesign4.jpg);
 }
 
 
