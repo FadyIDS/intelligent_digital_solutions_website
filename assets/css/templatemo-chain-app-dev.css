@@ -304,9 +304,13 @@ body {
 .border-button a:hover { 
   font-size: 20px ;
   color: white;
+  background-image: linear-gradient(to right, #2d8dd1,#01febb) !important;
+
 }
 .border-button :hover {
-  background-color: #5fcf80
+  background-image: linear-gradient(to right, #2d8dd1,#01febb) !important;
+  background-color: transparent;
+
 }
 
 /* .border-button a:hover {
@@ -1627,7 +1631,7 @@ Footer Style
 */
 
 footer {
-  background-image: url(../images/footer-bg.png);
+  background-image: url(../images/footer-bg2.png);
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
