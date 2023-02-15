@@ -288,8 +288,10 @@ body {
 .border-button a {
   display: inline-block !important;
   padding: 10px 20px !important;
-  color: #5fcf80;
-  border: 1px solid #5fcf80;
+  background: linear-gradient(to right, #2d8dd1, #01febb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+  border: 1px solid #01febb;
   text-transform: capitalize;
   font-size: 15px;
   display: inline-block;
