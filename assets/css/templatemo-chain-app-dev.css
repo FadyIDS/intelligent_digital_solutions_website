@@ -1106,7 +1106,7 @@ Services Style
 
 .third-service .icon {
   background-image: url(../images/mobile2.jpg);
-  background-size: cover;
+  background-size: contain;
 }
 }
 
