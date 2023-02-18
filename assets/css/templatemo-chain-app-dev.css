@@ -135,9 +135,8 @@ img {
   overflow: hidden;
 }
 .btn-up {
-  background-color: #5fcf80;
+  background-image: linear-gradient(to right, #2d8dd1 , #00feb6);;
   border: none;
-  color: white;
   font-weight: bold;
   padding: 6px;
   border-radius: 400px;
@@ -146,6 +145,9 @@ img {
   right: 20px;
   display: none;
   cursor: pointer;
+}
+.btn-up i{
+  color: white;
 }
 
 
@@ -1126,13 +1128,13 @@ Services Style
 }
 
 .fourth-service .icon {
-  background-image: url(../images/pricing-table-01.png);
-  background-size: cover;
+  background-image: url(../images/support.png);
+  background-size: contain;
 }
 
 
 .fourth-service:hover .icon {
-  background-image: url(../images/pricing-table-01.png);
+  background-image: url(../images/support.png);
 }
 
 .service-item:hover {
@@ -1142,8 +1144,72 @@ Services Style
   background-size: cover;
 }
 
+/* .slide-in{
+  display: flex;
+  background-color: red;
+  width: 100px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  margin-inline: auto;
+} */
+.Dot{
+  width: 20px;
+  height: 20px;
+}
 
+@-webkit-keyframes slide-in {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-300%);
+            transform: translateX(-300%); }
+  30%,
+  70% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0); }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(300%);
+            transform: translateX(300%); } }
+@keyframes slide-in {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-300%);
+            transform: translateX(-300%); }
+  30%,
+  70% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0); }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(300%);
+            transform: translateX(300%); } }
 
+.slide-in div {
+  -webkit-animation: slide-in 1.5s infinite;
+          animation: slide-in 1.5s infinite;
+  background-color: var(--primary);
+  height: 20px;
+  left: 50%;
+  margin-top: -10px;
+  opacity: 0;
+  position: absolute;
+  margin-top: 20px;
+  width: 20px; }
+  .slide-in div:nth-of-type(1) {
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+    margin-left: -35px; }
+  .slide-in div:nth-of-type(2) {
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+    margin-left: -10px; }
+  .slide-in div:nth-of-type(3) {
+    -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+    margin-left: 15px; }
 /*
 ---------------------------------------------
 About Us
@@ -1324,7 +1390,7 @@ The Clients
 
 .the-clients .nacc .thumb .client-content {
   padding: 60px 30px;
-  background-image: url(../images/client-bg.png);
+  background-image: url(../images/client-bg2.png);
   background-size: cover;
   border-radius: 50px;
   width: 100%;
