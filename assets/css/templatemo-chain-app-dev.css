@@ -165,6 +165,7 @@ body {
 ::selection {
   background: #5fcf80;
   color: #fff !important;
+  -webkit-text-fill-color: white;
 }
 
 ::-moz-selection {
