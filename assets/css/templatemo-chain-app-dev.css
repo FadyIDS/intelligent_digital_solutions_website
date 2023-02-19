@@ -1121,7 +1121,7 @@ Services Style
   background-image: url(../images/mobile2.jpg);
   background-size: contain;
 }
-}
+
 
 .third-service:hover .icon {
   background-image: url(../images/mobile.jpg);
@@ -1613,8 +1613,28 @@ The Clients
   margin-top: 40px;
 }
 
-
-
+.carousel-item{
+  /* display: flex;
+  justify-content: center; */
+  left: 33%;
+}
+.carousel-control{
+  background-image: linear-gradient(to right, #2d8dd1, #00feb6);
+  width: 120px;
+  height: 120px;
+  margin: auto 0;
+  border-radius: 50%;
+}
+.carousel-control span{
+  width: 50px;
+  height: 50px;
+}
+@media (max-width: 991px) {
+  .carousel-item{
+    left: 20%;
+    max-width: 60%;
+  }
+}
 
 /* 
 ---------------------------------------------
