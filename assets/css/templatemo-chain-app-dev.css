@@ -163,7 +163,7 @@ body {
 }
 
 ::selection {
-  background: #5fcf80;
+  background: #2d8dd1;
   color: #fff !important;
   -webkit-text-fill-color: white;
 }
