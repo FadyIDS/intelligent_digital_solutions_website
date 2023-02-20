@@ -50,7 +50,25 @@
   <button id="added-btn" class="btn-up">
     <i class="fa fa-arrow-up"></i>
   </button>
-  
+  <script>
+
+    let btn = document.getElementById("added-btn");
+    window.onscroll = function () {
+      if (window.scrollY >= 600) {
+        btn.style.display = "block";
+      } else {
+        btn.style.display = "none";
+      }
+    };
+
+    btn.onclick = function () {
+      window.scrollTo({
+        // left: 0,
+        top: 0,
+        behavior: "smooth"
+      });
+    };
+  </script>
   <!-- ***** Preloader Start ***** -->
   <div id="js-preloader" class="js-preloader">
     <div class="preloader-inner">
@@ -677,7 +695,7 @@
 
 
   <div id="products" style="margin-top: 220px;">
-    <div class="col-lg-8 offset-lg-2" style="display: flex; justify-content: center; margin-ttom: 50px;">
+    <div class="col-lg-8 offset-lg-2" style="display: flex; justify-content: center; margin-bottom: 50px;">
       <div class="section-heading">
         <h4>We Have The Best <em>Products</em> You Can Get</h4>
         <img src="assets/images/heading-line-dec.png" alt="" style="display: flex; margin-inline: auto;">
@@ -964,25 +982,7 @@
 
 
         <!-- Scripts -->
-        <script>
-
-          let btn = document.getElementById("added-btn");
-          window.onscroll = function () {
-            if (window.scrollY >= 600) {
-              btn.style.display = "block";
-            } else {
-              btn.style.display = "none";
-            }
-          };
-
-          btn.onclick = function () {
-            window.scrollTo({
-              left: 0,
-              top: 0,
-              behavior: "smooth"
-            });
-          };
-        </script>
+        
         <script src="vendor/jquery/jquery.min.js"></script>
         <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
         <script src="assets/js/owl-carousel.js"></script>
