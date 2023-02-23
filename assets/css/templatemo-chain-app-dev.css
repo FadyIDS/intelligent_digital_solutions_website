@@ -1592,6 +1592,12 @@ The Clients
     -webkit-background-clip: text;
     -webkit-text-fill-color:transparent;
 }
+@media (max-width: 490px) {
+  .pricing-item-pro h4 {
+    font-size: 20px;
+  }
+}
+
 
 .pricing-item-pro .icon img {
   width: 120px;
@@ -2463,5 +2469,10 @@ responsive
   }
   form#contact {
     padding: 30px;
+  }
+}
+@media (max-width: 577px) {
+  #products .section-heading h4 {
+    text-align: center;
   }
 }
