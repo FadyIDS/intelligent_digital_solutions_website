@@ -2118,7 +2118,11 @@ a.btn_red {
 
 
 
-
+#Form{
+  border: solid 3px #fff;
+  border-radius: 20px;
+  padding: 10px;
+}
 #Form .row1 .flex{
   display: flex;
   margin-bottom: 5px;
@@ -2133,6 +2137,10 @@ a.btn_red {
   color: #fff;
   font-size: 18px;
   border-color: #fff;
+}
+#Form .row1 .input::placeholder, textarea::placeholder{
+  color: #fff;
+  opacity: 0.7;
 }
 textarea{
   resize: none;
